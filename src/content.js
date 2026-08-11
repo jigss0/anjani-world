@@ -314,36 +314,40 @@ flirtyMessages: [
     subheading: "A small, growing collection of us.",
   },
     photos: [
-    {
-      src: "/photos/photo1.jpg",
-      caption: "My favorite smile.",
-      date: "",
-    },
-    {
-      src: "/photos/photo2.jpg",
-      caption: "One of my favorite memories.",
-      date: "",
-    },
-    {
-      src: "/photos/photo3.jpg",
-      caption: "The day you wouldn't stop laughing.",
-      date: "",
-    },
-    {
-      src: "/photos/photo4.jpg",
-      caption: "That random call that turned into three hours.",
-      date: "",
-    },
-    {
-      src: "/photos/photo5.jpg",
-      caption: "You, being effortlessly you.",
-      date: "",
-    },
-  ],
-
+  {
+    src: "./photos/photo1.jpg",
+    caption: "My favorite smile.",
+    date: "",
+  },
+  {
+    src: "./photos/photo2.jpg",
+    caption: "One of my favorite memories.",
+    date: "",
+  },
+  {
+    src: "./photos/photo3.jpg",
+    caption: "The day you wouldn't stop laughing.",
+    date: "",
+  },
+  {
+    src: "./photos/photo4.jpg",
+    caption: "That random call that turned into three hours.",
+    date: "",
+  },
+  {
+    src: "./photos/photo5.jpg",
+    caption: "You, being effortlessly you.",
+    date: "",
+  },
+  {
+    src: "./photos/photo6.jpg",
+    caption: "Another little piece of us. ❤️",
+    date: "",
+  },
+],
   videos: [
   {
-    src: "/videos/video1.mp4",
+    src: "./videos/video1.mp4",
     caption: "A little piece of us. ❤️",
   },
 ],
@@ -353,7 +357,7 @@ flirtyMessages: [
   // ---------------------------------------------------------------------
   music: {
   title: "Our Song",
-  url: "/music/oursong.mp3",
+  url: "./music/oursong.mp3",
   prompt: "There is one song I associate with you.",
   subtitle: "Don’t press play unless you’re ready.",
   button: "PLAY OUR SONG ♫",
