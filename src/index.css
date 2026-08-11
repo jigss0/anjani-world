@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  background: #FFF9F3;
+  color: #493A36;
+  font-family: 'Inter', sans-serif;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+::selection {
+  background: #D9A6A0;
+  color: #FFF9F3;
+}
+
+/* thin elegant scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9A6A0;
+  border-radius: 999px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.safe-px {
+  padding-left: max(1.25rem, env(safe-area-inset-left));
+  padding-right: max(1.25rem, env(safe-area-inset-right));
+}
+
+/* Signature instrument-panel meter, used across diagnostic/effect/quiz chapters */
+.rose-meter-track {
+  height: 6px;
+  border-radius: 999px;
+  background: #EFE2D8;
+  overflow: hidden;
+  position: relative;
+}
+.rose-meter-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #D9A6A0, #B97878);
+}
+
+.shimmer-bg {
+  background: linear-gradient(90deg, #F8E6E0 25%, #F3C9B8 50%, #F8E6E0 75%);
+  background-size: 200% 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus visibility for accessibility */
+button:focus-visible, a:focus-visible {
+  outline: 2px solid #B97878;
+  outline-offset: 3px;
+}
