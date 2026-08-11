@@ -342,21 +342,22 @@ flirtyMessages: [
   ],
 
   videos: [
-    { src: "", caption: "A little memory." },
-  ],
+  {
+    src: "/videos/video1.mp4",
+    caption: "A little piece of us. ❤️",
+  },
+],
 
   // ---------------------------------------------------------------------
   // CHAPTER EIGHT — OUR SONG
   // ---------------------------------------------------------------------
   music: {
-    title: "Our Song",
-    // Direct audio URL (e.g. "/music/oursong.mp3" or an https link to an mp3).
-    // Leave blank to show the "not added yet" placeholder player.
-    url: "",
-    prompt: "There is one song I associate with you.",
-    subtitle: "Don\u2019t press play unless you\u2019re ready.",
-    button: "PLAY OUR SONG \u266B",
-  },
+  title: "Our Song",
+  url: "/music/oursong.mp3",
+  prompt: "There is one song I associate with you.",
+  subtitle: "Don’t press play unless you’re ready.",
+  button: "PLAY OUR SONG ♫",
+},
 
   // ---------------------------------------------------------------------
   // CHAPTER NINE — THE LETTER
