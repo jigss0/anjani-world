@@ -43,10 +43,10 @@ export const content = {
     heading: "ANJANI.EXE",
     subtitle: "Running personality diagnostics…",
     stats: [
-      { label: "ENERGY", value: 97, display: "97%" },
-      { label: "SLEEPINESS", value: 91, display: "91%" },
-      { label: "ATTITUDE", value: 84, display: "84%" },
-      { label: "CUTENESS", value: 100, display: "∞%" },
+      { label: "ENERGY 🌸", value: 97, display: "97%" },
+      { label: "SLEEPINESS 🌹", value: 91, display: "91%" },
+      { label: "CHARMING 🌼", value: 84, display: "84%" },
+      { label: "CUTENESS 🌙", value: 100, display: "∞%" },
       { label: "ABILITY TO DISTRACT JIGAR", value: 99, display: "Dangerously high" },
       { label: "ABILITY TO SAY \u201Cwhatever\u201D", value: 100, display: "Unlimited" },
     ],
@@ -84,13 +84,13 @@ export const content = {
   effectCalculator: {
     heading: "Let\u2019s calculate your effect on me.",
     buttons: [
-      { label: "YOUR SMILE", value: 27 },
-      { label: "YOUR VOICE", value: 34 },
-      { label: "YOUR SLEEPY VOICE", value: 51 },
-      { label: "YOUR ENERGY", value: 72 },
-      { label: "YOUR RANDOM ATTITUDE", value: 65 },
-      { label: "YOU SAYING \u201CWHATEVER\u201D", value: 89 },
-      { label: "YOU BEING CUTE FOR NO REASON", value: 100 },
+      { label: "YOUR SMILE 🥹", value: 99 },
+      { label: "YOUR VOICE 💗", value: 99.99 },
+      { label: "YOUR SLEEPY VOICE 😩", value: 95 },
+      { label: "YOUR ENERGY 💋", value: 97 },
+      { label: "YOUR RANDOM ATTITUDE ❤️‍🔥", value: 98 },
+      { label: "YOU SAYING \u201CWHATEVER\u201D", value: 97 },
+      { label: "YOU BEING CUTE FOR NO REASON 🫠", value: 100 },
     ],
     overloadLabel: "SYSTEM OVERLOAD",
     overloadText: "Apparently you have way too much influence over one particular boy.",
@@ -101,56 +101,98 @@ export const content = {
   // CHAPTER FOUR — HOW WELL DO YOU KNOW ME? (quiz)
   // ---------------------------------------------------------------------
   quiz: {
-    heading: "How well do you actually know Jigar?",
-    questions: [
-      {
-        question: "What do I do first thing when I'm overthinking something?",
-        options: ["Go quiet", "Text you way too much", "Pretend I'm fine", "Overanalyze it out loud"],
-        correctIndex: 0,
-      },
-      {
-        question: "What's my actual favorite way to spend a free evening?",
-        options: ["Big plans out", "Doing nothing with you on call", "Scrolling alone", "Sleeping early"],
-        correctIndex: 1,
-      },
-      {
-        question: "What almost always makes me smile without fail?",
-        options: ["A good meme", "Your sleepy voice", "Free food", "Winning an argument"],
-        correctIndex: 1,
-      },
-      {
-        question: "What do I actually do when I'm upset with you?",
-        options: ["Go completely silent", "Overexplain everything", "Get loud", "Pretend nothing happened"],
-        correctIndex: 0,
-      },
-      {
-        question: "Which one of these is a very \u201Cme\u201D habit?",
-        options: ["Overplanning everything", "Losing track of time on calls with you", "Being early to everything", "Never checking my phone"],
-        correctIndex: 1,
-      },
-      {
-        question: "What's my honest weakness?",
-        options: ["Spicy food", "Mornings", "Your attitude", "Losing games"],
-        correctIndex: 2,
-      },
-      {
-        question: "What do I secretly overthink the most?",
-        options: ["What you're thinking when you go quiet", "What to eat", "My playlists", "Random arguments online"],
-        correctIndex: 0,
-      },
-      {
-        question: "What's the one thing that instantly fixes my mood?",
-        options: ["A good nap", "Hearing from you", "Good weather", "Winning something small"],
-        correctIndex: 1,
-      },
-    ],
-    highScoreText: "Okay\u2026 that\u2019s suspicious.\nYou know me way too well. \uD83D\uDE2D\u2764\uFE0F",
-    lowScoreText: "Apparently I still have some explaining to do. \uD83D\uDE02",
-    highScoreThreshold: 0.6,
-    rewardLabel: "REWARD UNLOCKED \uD83D\uDD13",
-    rewardText: "A permanent, unconditional spot in my ridiculous overthinking mind.",
-  },
-
+  heading: "How well do we actually know each other? 💗",
+  questions: [
+    {
+      question: "What can instantly make Anjani smile?",
+      options: [
+        "A random compliment",
+        "Jigar being stupid",
+        "A cute little surprise",
+        "Probably all of the above",
+      ],
+      correctIndex: 3,
+    },
+    {
+      question: "What's one thing that feels very “us”?",
+      options: [
+        "Random teasing",
+        "Late-night conversations",
+        "Laughing over completely stupid things",
+        "All of the above",
+      ],
+      correctIndex: 3,
+    },
+    {
+      question: "What is Anjani most likely to say when she's pretending not to care?",
+      options: [
+        "I don't know",
+        "Whatever",
+        "I'm fine",
+        "Nothing",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What's Jigar's biggest weakness when it comes to Anjani?",
+      options: [
+        "Her smile",
+        "Her sleepy voice",
+        "Her attitude",
+        "Literally everything about her",
+      ],
+      correctIndex: 3,
+    },
+    {
+      question: "What's the most dangerous combination?",
+      options: [
+        "Anjani being cute + Jigar trying to behave",
+        "Anjani saying “whatever” + Jigar teasing her",
+        "A sleepy call that was supposed to be five minutes",
+        "All of these are dangerous",
+      ],
+      correctIndex: 3,
+    },
+    {
+      question: "What happens when we start talking late at night?",
+      options: [
+        "We actually sleep on time",
+        "Someone says “just five more minutes”",
+        "Five minutes somehow becomes hours",
+        "Both B and C",
+      ],
+      correctIndex: 3,
+    },
+    {
+      question: "What's Jigar's favorite version of Anjani?",
+      options: [
+        "Happy Anjani",
+        "Sleepy Anjani",
+        "Angry-but-cute Anjani",
+        "Every single version of her",
+      ],
+      correctIndex: 3,
+    },
+    {
+      question: "What's the most accurate description of us?",
+      options: [
+        "Best friends with extra feelings",
+        "Two idiots who fell way too hard",
+        "Cute, chaotic and slightly dramatic",
+        "Somehow all three",
+      ],
+      correctIndex: 3,
+    },
+  ],
+  highScoreText:
+    "Okay… apparently we know each other a little too well. 😭💗\nAnd honestly, I wouldn't have it any other way.",
+  lowScoreText:
+    "Hmm… looks like we need another ridiculously long conversation. 😏❤️",
+  highScoreThreshold: 0.6,
+  rewardLabel: "COUPLE MODE UNLOCKED 💗",
+  rewardText:
+    "Congratulations. You officially know way too much about each other.",
+},
   // ---------------------------------------------------------------------
   // CHAPTER FIVE — MY PRIVATE FILES
   // ---------------------------------------------------------------------
@@ -223,21 +265,43 @@ export const content = {
   // CHAPTER SIX — FLIRT WITH ME
   // ---------------------------------------------------------------------
   flirt: {
-    heading: "You came here for something emotional\u2026",
-    subheading: "Unfortunately, I still need to flirt with you. \uD83D\uDE0F",
-    button: "FLIRT WITH ME",
-  },
-  flirtyMessages: [
-    "Your energy is still my favorite kind of trouble.",
-    "You're dangerously easy to miss.",
-    "I blame you for at least 70% of my random smiling.",
-    "You somehow make being distracted feel productive.",
-    "I'd tell you to stop being cute, but I have absolutely no authority here.",
-    "Your sleepy voice should honestly be illegal.",
-    "You saying \u201Cwhatever\u201D somehow makes you even more adorable.",
-    "Congratulations. You successfully distracted me again.",
-  ],
+  heading: "Okay… come here, pretty girl. 💋",
+  subheading:
+    "You already have my heart. Now let me embarrass myself trying to flirt with you.",
+  button: "FLIRT WITH ME 💋",
+},
 
+flirtyMessages: [
+  "Are you always this cute, or do you only become this dangerous when I'm around? 😏❤️",
+
+  "I was going to flirt with you normally… then you smiled and I completely forgot what I was going to say.",
+
+  "Can you stop being so attractive for five minutes? I'm trying very hard to pretend I have self-control. 😭",
+
+  "If kisses were snowflakes, I'd send you a blizzard… and then probably get distracted kissing you instead. ❄️💋",
+
+  "You know what's unfair? You get to be this pretty and I have to pretend I'm capable of acting normal around you.",
+
+  "I think my heart has a favorite person… and unfortunately for me, it's you. 💗",
+
+  "Are you Wi-Fi? Because every time you get close, I feel a connection I can't explain. 😭",
+
+  "You must be tired… because you've been running through my mind all day. And yes, I'm still flirting with you. 😌",
+
+  "If I could rearrange the alphabet, I'd put U and I closer… although honestly, I'd rather just keep you close to me. 🫠❤️",
+
+  "You're becoming a serious problem. Every time I look at you, I like you a little more.",
+
+  "I don't need a good morning text anymore. I just need you saying my name in that voice of yours. 🥹",
+
+  "Your sleepy voice should come with a warning. I have absolutely no defense against it.",
+
+  "You saying “whatever” should annoy me… so why does it somehow make you even cuter? 😭",
+
+  "I could write you a hundred pickup lines… but I'd probably end up just telling you that you're ridiculously beautiful.",
+
+  "Okay, last one… you're not just my type. You're the reason my type exists. 💋",
+],
   // ---------------------------------------------------------------------
   // CHAPTER SEVEN — OUR MEMORY ROOM
   //
@@ -309,7 +373,7 @@ export const content = {
   finalSurprise: {
     teaser: "WAIT\u2026 ONE LAST THING.",
     button: "OPEN IT",
-    steps: ["Come here.", "For a second.", "No words needed.", "Okay. You can go back to being stubborn now. \uD83D\uDE0F", "I love you, sleepyhead."],
+    steps: ["Come here.", "For a second.", "No words needed.", "Okay. You can go back to being JINIE 🌸 now. \uD83D\uDE0F", "I love you, sleepyhead."],
   },
 
   // ---------------------------------------------------------------------
@@ -320,6 +384,6 @@ export const content = {
     line2: "Just take care of yourself.",
     line3: "And remember\u2026",
     line4: "You\u2019re still my favorite person to annoy.",
-    signature: "\u2661 Jigar",
+    signature: "\u2661 Jigar 🥺",
   },
 };
