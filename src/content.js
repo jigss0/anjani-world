@@ -313,12 +313,32 @@ flirtyMessages: [
     heading: "Our little universe.",
     subheading: "A small, growing collection of us.",
   },
-  photos: [
-    { src: "", caption: "My favorite smile.", date: "" },
-    { src: "", caption: "One of my favorite memories.", date: "" },
-    { src: "", caption: "The day you wouldn't stop laughing.", date: "" },
-    { src: "", caption: "That random call that turned into three hours.", date: "" },
-    { src: "", caption: "You, being effortlessly you.", date: "" },
+    photos: [
+    {
+      src: "/photos/photo1.jpg",
+      caption: "My favorite smile.",
+      date: "",
+    },
+    {
+      src: "/photos/photo2.jpg",
+      caption: "One of my favorite memories.",
+      date: "",
+    },
+    {
+      src: "/photos/photo3.jpg",
+      caption: "The day you wouldn't stop laughing.",
+      date: "",
+    },
+    {
+      src: "/photos/photo4.jpg",
+      caption: "That random call that turned into three hours.",
+      date: "",
+    },
+    {
+      src: "/photos/photo5.jpg",
+      caption: "You, being effortlessly you.",
+      date: "",
+    },
   ],
 
   videos: [
